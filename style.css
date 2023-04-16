@@ -1,51 +1,67 @@
-/* Stil für den Header */
+/* style.css */
+
+/* Set the font and background color for the entire page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+/* Style the header with a pink background and white text */
 header {
-  background-color: #333;
-  color: white;
-  padding: 10px;
+  background-color: #ff69b4;
+  color: #fff;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-header h1 {
-  margin: 0;
-}
-
-header nav ul {
+/* Style the navigation menu */
+nav ul {
+  list-style: none;
   margin: 0;
   padding: 0;
-  list-style: none;
+  display: flex;
 }
 
-header nav li {
-  display: inline-block;
-  margin-right: 20px;
+nav li {
+  margin: 0 1em;
 }
 
-header nav a {
-  color: white;
+nav a {
+  color: #fff;
   text-decoration: none;
+  font-weight: bold;
 }
 
-/* Stil für den Hauptinhalt */
+/* Style the main content area */
 main {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
+  padding: 1em;
 }
 
+/* Style the article section */
 article {
-  background-color: #f9f9f9;
-  padding: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 1em;
 }
 
-article h2 {
-  margin-top: 0;
+/* Style the h1 and h2 headings */
+h1, h2 {
+  color: #ff69b4;
 }
 
-/* Stil für den Footer */
+/* Style the footer */
 footer {
-  background-color: #333;
-  color: white;
-  padding: 10px;
+  background-color: #ff69b4;
+  color: #fff;
+  padding: 1em;
   text-align: center;
+}
+
+/* Add a cat image */
+.cat-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1em auto;
 }
